@@ -2,25 +2,25 @@
 
 .boxed-btn {
     background: #fff;
-    color: #ed078b !important;
+    color: #2e5185 !important;
     display: inline-block;
     padding: 18px 44px;
     font-family: "Fredoka One", cursive;
     font-size: 14px;
     font-weight: 400;
     border: 0;
-    border: 1px solid #ed078b;
+    border: 1px solid #2e5185;
     letter-spacing: 3px;
     text-align: center;
-    color: #ed078b;
+    color: #2e5185;
     text-transform: uppercase;
     cursor: pointer
 }
 
 .boxed-btn:hover {
-    background: #ed078b;
+    background: #2e5185;
     color: #fff !important;
-    border: 1px solid #ed078b
+    border: 1px solid #2e5185
 }
 
 .boxed-btn:focus {
@@ -193,7 +193,7 @@ li {
 }
 
 .btn {
-    background: #ed078b;
+    background: #2e5185;
     font-family: "Concert One", cursive;
     text-transform: capitalize;
     padding: 25px 38px !important;
@@ -261,8 +261,8 @@ li {
 }
 
 .border-btn {
-    border: 1px solid #ed078b;
-    color: #ed078b;
+    border: 1px solid #2e5185;
+    color: #2e5185;
     font-family: "Fredoka One", cursive;
     background: none;
     text-transform: capitalize;
@@ -286,7 +286,7 @@ li {
 .border-btn i {
     font-size: 16px;
     margin-right: 10px;
-    color: #ed078b;
+    color: #2e5185;
     -webkit-transition: .3s;
     -moz-transition: .3s;
     -o-transition: .3s;
@@ -301,7 +301,7 @@ li {
     top: 0;
     width: 101%;
     height: 101%;
-    background: #ed078b;
+    background: #2e5185;
     z-index: -1;
     transition: transform .5s;
     transition-timing-function: ease;
@@ -318,7 +318,7 @@ li {
 }
 
 #back-top {
-    background: #ed078b;
+    background: #2e5185;
     height: 50px;
     width: 50px;
     right: 31px;
@@ -466,7 +466,7 @@ li {
     position: relative;
     border-style: solid;
     border-width: 1px;
-    border-top-color: #ed078b;
+    border-top-color: #2e5185;
     border-bottom-color: transparent;
     border-left-color: transparent;
     border-right-color: transparent;
@@ -624,7 +624,7 @@ li {
     font-family: "Fredoka One", cursive;
     font-size: 40px;
     font-weight: 400;
-    color: #ed078b;
+    color: #2e5185;
     text-transform: capitalize;
     display: inline-block;
     letter-spacing: .05em;
@@ -682,7 +682,7 @@ li {
 }
 
 .header-area .header-top {
-    background: #ed078b;
+    background: #2e5185;
     padding: 8px 210px
 }
 
@@ -846,7 +846,7 @@ li {
     left: -5px;
     height: 3px;
     z-index: 1;
-    background: #ed078b;
+    background: #2e5185;
     -webkit-transition: .4s;
     -moz-transition: .4s;
     -o-transition: .4s;
@@ -854,7 +854,7 @@ li {
 }
 
 .main-header .main-menu ul>li:hover>a {
-    color: #ed078b
+    color: #2e5185
 }
 
 .main-header .main-menu ul>li:hover>a::after {
@@ -905,7 +905,7 @@ li {
 }
 
 .main-header .main-menu ul ul.submenu>li>a:hover {
-    color: #ed078b;
+    color: #2e5185;
     background: none
 }
 
@@ -1314,7 +1314,7 @@ li {
 }
 
 .color-font4 {
-    color: #ed078b
+    color: #2e5185
 }
 
 .team-area .single-team .team-img {
@@ -1377,7 +1377,7 @@ li {
 }
 
 .team-area .single-team .team-info h3 a:hover {
-    color: #ed078b
+    color: #2e5185
 }
 
 .team-area .single-team .team-info p {
@@ -1580,7 +1580,7 @@ li {
 }
 
 .class-offer-area .properties__caption P span {
-    color: #ed078b;
+    color: #2e5185;
     font-size: 16px
 }
 
@@ -1623,7 +1623,7 @@ li {
 }
 
 .class-offer-area .properties:hover .properties__caption h3 {
-    color: #ed078b
+    color: #2e5185
 }
 
 .class-offer-active button.slick-arrow {
@@ -1738,7 +1738,7 @@ li {
 
 .testimonial-area .testimonial-caption .testimonial-founder .founder-text span {
     font-family: "Concert One", cursive;
-    color: #ed078b;
+    color: #2e5185;
     font-size: 20px;
     font-weight: 600;
     text-align: left
@@ -1995,7 +1995,7 @@ li {
 }
 
 .footer-area .info.error {
-    color: #ed078b
+    color: #2e5185
 }
 
 .footer-bottom-area .footer-border {
@@ -2037,7 +2037,7 @@ li {
 
 .footer-social a:hover {
     color: #fff;
-    background: #ed078b
+    background: #2e5185
 }
 
 .footer-social a i {
@@ -2176,7 +2176,7 @@ li {
 
 .blog_area a:hover,
 .blog_area a :hover {
-    background: -webkit-linear-gradient(131deg, #ed078b 0%, #ed078b 99%);
+    background: -webkit-linear-gradient(131deg, #2e5185 0%, #2e5185 99%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-decoration: none;
@@ -2207,7 +2207,7 @@ li {
 }
 
 .blog_details a:hover {
-    color: #ed078b
+    color: #2e5185
 }
 
 .blog_details h2 {
@@ -2265,7 +2265,7 @@ li {
     left: 10px;
     display: block;
     color: #fff;
-    background-color: #ed078b;
+    background-color: #2e5185;
     padding: 8px 15px;
     border-radius: 5px
 }
@@ -2347,7 +2347,7 @@ li {
 }
 
 .blog_right_sidebar .search_widget .input-group button {
-    background: #ed078b;
+    background: #2e5185;
     border-left: 0;
     border: 1px solid #f0e9ff;
     padding: 4px 15px;
@@ -2465,7 +2465,7 @@ li {
 }
 
 .blog_right_sidebar .tag_cloud_widget ul li a:hover {
-    background: #ed078b;
+    background: #2e5185;
     color: #fff !important;
     -webkit-text-fill-color: #fff;
     text-decoration: none;
@@ -2656,7 +2656,7 @@ li {
 }
 
 .single-post-area .blog-author a:hover {
-    color: #ed078b
+    color: #2e5185
 }
 
 .single-post-area .blog-author p {
