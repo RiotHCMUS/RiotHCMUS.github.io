@@ -3,11 +3,10 @@ const mongoose = require('mongoose');
 const app = express()
 
 const ejs = require('ejs');
-
 app.set('view engine', 'ejs');
 try
 {
-mongoose.connect('mongodb+srv://riothcmus:huyhoan65@riotcluster.p3qr5ga.mongodb.net/?retryWrites=true&w=majority')}
+mongoose.connect('mongodb+srv://huyhoan652002:huyhoan65@riotcluster.p3qr5ga.mongodb.net/test')}
 catch (error)
 {
     console.log(error.message)
