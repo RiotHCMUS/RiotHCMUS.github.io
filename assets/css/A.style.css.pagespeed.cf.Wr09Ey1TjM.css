@@ -194,7 +194,7 @@ li {
 
 .btn {
     background: #2e5185;
-    font-family: "Concert One", cursive;
+    font-family: "Roboto", cursive;
     text-transform: capitalize;
     padding: 25px 38px !important;
     color: #fff;
@@ -263,7 +263,7 @@ li {
 .border-btn {
     border: 1px solid #2e5185;
     color: #2e5185;
-    font-family: "Fredoka One", cursive;
+    font-family: "Roboto", cursive;
     background: none;
     text-transform: capitalize;
     padding: 17px 42px;
@@ -272,7 +272,7 @@ li {
     cursor: pointer;
     display: inline-block;
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 800;
     letter-spacing: 1px;
     margin-bottom: 0;
     position: relative;
@@ -645,9 +645,9 @@ li {
 }
 
 .section-tittle h2 {
-    font-size: 40px;
+    font-size: 35px;
     display: block;
-    font-weight: 400;
+    font-weight: 800;
     line-height: 1.2;
     margin-bottom: 15px
 }
@@ -817,9 +817,9 @@ li {
 }
 
 .main-header .main-menu ul>li a {
-    font-family: "Concert One", cursive;
+    font-family: "Roboto", cursive;
     color: #423f8d;
-    font-weight: 300;
+    font-weight: 700;
     padding: 27px 4px;
     display: block;
     font-size: 18px;
