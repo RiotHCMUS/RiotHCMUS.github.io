@@ -15,6 +15,9 @@
     <link rel="stylesheet" href="assets/css/A.style.css.pagespeed.cf.Wr09Ey1TjM.css">
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <link rel="stylesheet" type="text/css" href="/LineMenuStyles-master/css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="/LineMenuStyles-master/css//demo.css" />
+    <link rel="stylesheet" type="text/css" href="/LineMenuStyles-master/css//component.css" />
 </head>
 
 <body>
@@ -72,7 +75,8 @@
                                     </div>
                                     <div class="header-info-right">
                                         <ul class="header-social">
-                                            <li><a href="https://www.facebook.com/RoboticsHCMUS"><i class="fab fa-facebook"></i></a></li>
+                                            <li><a href="https://www.facebook.com/RoboticsHCMUS"><i
+                                                        class="fab fa-facebook"></i></a></li>
                                             <li><a href="./404.html"><i class="fab fa-twitter"></i></a></li>
                                             <li><a href="./404.html"><i class="fab fa-linkedin-in"></i></a></li>
                                             <li> <a href="./404.html"><i class="fab fa-instagram"></i></a></li>
@@ -159,6 +163,212 @@
                         </div>
                     </div>
                 </div>
+
+                <section class="section section--menu" id="Sebastian">
+                    <nav class="menu menu--sebastian">
+                        <ul class="menu__list">
+                            <li class="section__title section__title--current" id="Arduino"><a href="#"
+                                    class="menu__link">ARDUINO</a>
+                            </li>
+                            <li class="section__title" id="wedo"><a href="#" class="menu__link">WEDO</a></li>
+                            <li class="section__title" id="spike"><a href="#" class="menu__link">SPIKE PRIME</a></li>
+                            <li class="section__title" id="mindstorms"><a href="#" class="menu__link">MINDSTORMS</a></li>
+                            <li class="section__title" id="python"><a href="#" class="menu__link">PYTHON</a></li>
+                        </ul>
+                    </nav>
+                    <script>
+                        // get the Arduino button clicked
+                        var Arduino = document.getElementById("Arduino");
+                        console.log(Arduino);
+                        // when the button is clicked, do this
+                        Arduino.addEventListener("click", function () {
+                            // delete all the div with the class of "col-lg-4 col-md-6 col-sm-6" immediately
+                            var col = document.getElementsByClassName("properties__card");
+                            while (col.length > 0) {
+                                col[0].parentNode.removeChild(col[0]);
+                            }
+                            // add html code to the div after the div with the class of "properties pb-30"
+                            var row = document.getElementsByClassName("properties pb-30");
+                            row[0].innerHTML += `<div class="properties pb-30">
+                                <div class="properties__card">
+                                <div class="properties__img">
+                                    <a href="./classes/arduino_basic.html"><img src="assets/img/gallery/arduino.png"
+                                            alt="" data-pagespeed-url-hash="1812763935" width="10%"
+                                            onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></a>
+                                    <div class="img-text">
+                                        <!-- <span class="open">Admission Closed</span> -->
+                                    </div>
+                                </div>
+                                <div class="properties__caption">
+                                    <h3><a href="./classes/arduino_basic.html">Introduction to Arduino</a></h3>
+                                    <p>Khóa học kĩ sư Arduino cơ bản</p>
+                                </div>
+                                <div class="properties__footer d-flex justify-content-between align-items-center">
+                                    <div class="class-day">
+                                        <span class="color-font4">12-21</span>
+                                        <p>Tuổi</p>
+                                    </div>
+                                    <div class="class-day">
+                                        <span class="color-font2">8</span>
+                                        <p>buổi học</p>
+                                    </div>
+                                    <div class="class-day">
+                                        <span class="color-font1">2h</span>
+                                        <p>1 buổi</p>
+                                    </div>
+                                </div>
+                            </div>
+                            `
+                        });
+                        var wedo = document.getElementById("wedo");
+                        console.log(wedo);
+                        wedo.addEventListener("click", function () {
+                            var col = document.getElementsByClassName("properties__card");
+                            while (col.length > 0) {
+                                col[0].parentNode.removeChild(col[0]);
+                            }
+                            var row = document.getElementsByClassName("properties pb-30");
+                            row[0].innerHTML += `<div class="properties__card">
+                                <div class="properties__img">
+                                    <a href="./classes/wedo_basic.html"><img src="assets/img/gallery/wedo.jpg" alt=""
+                                            data-pagespeed-url-hash="1518264014"
+                                            onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></a>
+                                </div>
+                                <div class="properties__caption">
+                                    <h3><a href="./classes/wedo_basic.html">Lego Basic: WEDO</a></h3>
+                                    <p>Khóa học kĩ sư nhí Wedo cơ bản dành cho học sinh</p>
+                                </div>
+                                <div class="properties__footer d-flex justify-content-between align-items-center">
+                                    <div class="class-day">
+                                        <span class="color-font4">6-12</span>
+                                        <p>Tuổi</p>
+                                    </div>
+                                    <div class="class-day">
+                                        <span class="color-font2">8</span>
+                                        <p>buổi học</p>
+                                    </div>
+                                    <div class="class-day">
+                                        <span class="color-font1">2h</span>
+                                        <p>1 buổi</p>
+                                    </div>
+                                </div>
+                            </div>`
+                        });
+                        var spike = document.getElementById("spike");
+                        console.log(spike);
+                        spike.addEventListener("click", function () {
+                            var col = document.getElementsByClassName("properties__card");
+                            while (col.length > 0) {
+                                col[0].parentNode.removeChild(col[0]);
+                            }
+                            var row = document.getElementsByClassName("properties pb-30");
+                            row[0].innerHTML += `<div class="properties__card">
+                                <div class="properties__img">
+                                    <a href="./classes/spike_basic.html"><img src="assets/img/gallery/spike.jpg" alt=""
+                                            data-pagespeed-url-hash="1223764093" width=10%
+                                            onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></a>
+                                    <div class="img-text">
+                                        <!-- <span class="open">Admission Closed</span> -->
+                                    </div>
+                                </div>
+                                <div class="properties__caption">
+                                    <h3><a href="./classes/spike_basic.html">Lego Basic: SPIKE Prime</a></h3>
+                                    <p>Khóa học kĩ sư nhí Spike Prime cơ bản dành cho học sinh</p>
+                                </div>
+                                <div class="properties__footer d-flex justify-content-between align-items-center">
+                                    <div class="class-day">
+                                        <span class="color-font4">8-16</span>
+                                        <p>Tuổi</p>
+                                    </div>
+                                    <div class="class-day">
+                                        <span class="color-font2">8</span>
+                                        <p>buổi học</p>
+                                    </div>
+                                    <div class="class-day">
+                                        <span class="color-font1">2h</span>
+                                        <p>1 buổi</p>
+                                    </div>
+                                </div>
+                            </div>`
+                        });
+                        var mindstorms = document.getElementById("mindstorms");
+                        console.log(mindstorms);
+                        mindstorms.addEventListener("click", function () {
+                            var col = document.getElementsByClassName("properties__card");
+                            while (col.length > 0) {
+                                col[0].parentNode.removeChild(col[0]);
+                            }
+                            var row = document.getElementsByClassName("properties pb-30");
+                            row[0].innerHTML += `<div class="properties__card">
+                                <div class="properties__img">
+                                    <a href="./classes/mind_basic.html"><img src="assets/img/gallery/ev3.jpg" alt=""
+                                            data-pagespeed-url-hash="1812763935" width="10%"
+                                            onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></a>
+                                    <div class="img-text">
+                                        <!-- <span class="open">Admission Closed</span> -->
+                                    </div>
+                                </div>
+                                <div class="properties__caption">
+                                    <h3><a href="./classes/mind_basic.html">Lego Basic: Mindstorms</a></h3>
+                                    <p>Khóa học kĩ sư Mindstorms cơ bản</p>
+                                </div>
+                                <div class="properties__footer d-flex justify-content-between align-items-center">
+                                    <div class="class-day">
+                                        <span class="color-font4">9-18</span>
+                                        <p>Tuổi</p>
+                                    </div>
+                                    <div class="class-day">
+                                        <span class="color-font2">8</span>
+                                        <p>buổi học</p>
+                                    </div>
+                                    <div class="class-day">
+                                        <span class="color-font1">2h</span>
+                                        <p>1 buổi</p>
+                                    </div>
+                                </div>
+                            </div>`
+                        });
+                        var python = document.getElementById("python");
+                        console.log(python);
+                        python.addEventListener("click", function () {
+                            var col = document.getElementsByClassName("properties__card");
+                            while (col.length > 0) {
+                                col[0].parentNode.removeChild(col[0]);
+                            }
+                            var row = document.getElementsByClassName("properties pb-30");
+                            row[0].innerHTML += `<div class="properties__card">
+                                <div class="properties__img">
+                                    <a href="./classes/py_basic.html"><img src="assets/img/gallery/python.webp" alt=""
+                                            data-pagespeed-url-hash="1518264014"
+                                            onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></a>
+                                    <div class="img-text">
+                                        <!-- <span class="open">Admission Closed</span> -->
+                                    </div>
+                                </div>
+                                <div class="properties__caption">
+                                    <h3><a href="./classes/py_basic.html">Introduction to Python</a></h3>
+                                    <p>Khóa học lập trình python căn bản dành cho học sinh sinh viên</p>
+                                </div>
+                                <div class="properties__footer d-flex justify-content-between align-items-center">
+                                    <div class="class-day">
+                                        <span class="color-font4">12-21</span>
+                                        <p>Tuổi</p>
+                                    </div>
+                                    <div class="class-day">
+                                        <span class="color-font2">8</span>
+                                        <p>buổi học</p>
+                                    </div>
+                                    <div class="class-day">
+                                        <span class="color-font1">2h</span>
+                                        <p>1 buổi</p>
+                                    </div>
+                                </div>
+                            </div>`
+                        });
+
+                    </script>   
+                </section>
+
                 <div class="row">
                     <div class="col-lg-4 col-md-6 col-sm-6">
 
@@ -228,8 +438,8 @@
                         <div class="properties pb-30">
                             <div class="properties__card">
                                 <div class="properties__img">
-                                    <a href="./classes/arduino_basic.html"><img src="assets/img/gallery/arduino.png" alt=""
-                                            data-pagespeed-url-hash="1812763935" width="10%"
+                                    <a href="./classes/arduino_basic.html"><img src="assets/img/gallery/arduino.png"
+                                            alt="" data-pagespeed-url-hash="1812763935" width="10%"
                                             onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></a>
                                     <div class="img-text">
                                         <!-- <span class="open">Admission Closed</span> -->
@@ -294,8 +504,8 @@
                         <div class="properties pb-30">
                             <div class="properties__card">
                                 <div class="properties__img">
-                                    <a href="./classes/spike_advanced.html"><img src="assets/img/gallery/spike.jpg" alt=""
-                                            data-pagespeed-url-hash="1223764093" width=10%
+                                    <a href="./classes/spike_advanced.html"><img src="assets/img/gallery/spike.jpg"
+                                            alt="" data-pagespeed-url-hash="1223764093" width=10%
                                             onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></a>
                                     <div class="img-text">
                                         <!-- <span class="open">Admission Closed</span> -->
@@ -357,8 +567,8 @@
                         <div class="properties pb-30">
                             <div class="properties__card">
                                 <div class="properties__img">
-                                    <a href="./classes/arduino.advanced.html"><img src="assets/img/gallery/arduino.png" alt=""
-                                            data-pagespeed-url-hash="1812763935" width="10%"
+                                    <a href="./classes/arduino.advanced.html"><img src="assets/img/gallery/arduino.png"
+                                            alt="" data-pagespeed-url-hash="1812763935" width="10%"
                                             onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></a>
                                     <div class="img-text">
                                         <!-- <span class="open">Admission Closed</span> -->
@@ -390,8 +600,8 @@
                         <div class="properties pb-30">
                             <div class="properties__card">
                                 <div class="properties__img">
-                                    <a href="./classes/py_advanced.html"><img src="assets/img/gallery/python.webp" alt=""
-                                            data-pagespeed-url-hash="1518264014"
+                                    <a href="./classes/py_advanced.html"><img src="assets/img/gallery/python.webp"
+                                            alt="" data-pagespeed-url-hash="1518264014"
                                             onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></a>
                                     <div class="img-text">
                                         <!-- <span class="open">Admission Closed</span> -->
