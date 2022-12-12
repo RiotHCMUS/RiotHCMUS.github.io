@@ -5,9 +5,9 @@
     color: #2e5185 !important;
     display: inline-block;
     padding: 18px 44px;
-    font-family: "Fredoka One", cursive;
+    font-family: "Roboto", cursive;
     font-size: 14px;
-    font-weight: 400;
+    font-weight: 800;
     border: 0;
     border: 1px solid #2e5185;
     letter-spacing: 3px;
@@ -40,7 +40,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "Fredoka One", cursive;
+    font-family: "Roboto", cursive;
     color: #423f8d;
     margin-top: 0;
     font-style: normal;
@@ -621,7 +621,7 @@ li {
 }
 
 .section-tittle span {
-    font-family: "Fredoka One", cursive;
+    font-family: "Roboto", cursive;
     font-size: 40px;
     font-weight: 400;
     color: #2e5185;
@@ -1130,6 +1130,7 @@ li {
 
 .slider-area .hero__caption h1,
 .slider-area2 .hero__caption h1 {
+    font-family: "Fredoka One";
     font-size: 39px;
     font-weight: 400;
     line-height: 1.1;
@@ -2169,7 +2170,7 @@ li {
 }
 
 .blog_area a {
-    color: "Fredoka One", cursive !important;
+    color: "Roboto", cursive !important;
     text-decoration: none;
     transition: .4s
 }
