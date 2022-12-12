@@ -2341,6 +2341,8 @@ button.close {
 
 .owl-carousel .owl-stage {
     position: relative;
+    margin-top: 100px;
+    margin-bottom: 50px;
     -ms-touch-action: pan-Y;
     -moz-backface-visibility: hidden
 }
