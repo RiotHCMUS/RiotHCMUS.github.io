@@ -177,20 +177,6 @@
                         </ul>
                     </nav>
                     <script>
-                        // get the all button clicked
-                        var all = document.getElementById("all");
-                        console.log(all);
-                        // when the button is clicked, do this
-                        all.addEventListener("click", function () {
-                            // delete all the div with the class of "col-lg-4 col-md-6 col-sm-6" immediately
-                            var col = document.getElementsByClassName("properties__card");
-                            while (col.length > 0) {
-                                col[0].parentNode.removeChild(col[0]);
-                            }
-                            // add html code to the div after the div with the class of "properties pb-30"
-                            var row = document.getElementsByClassName("col-lg-4 col-md-6 col-sm-6");
-                            row[0].innerHTML += ``
-                        });
                         // get the Arduino button clicked
                         var Arduino = document.getElementById("Arduino");
                         console.log(Arduino);
