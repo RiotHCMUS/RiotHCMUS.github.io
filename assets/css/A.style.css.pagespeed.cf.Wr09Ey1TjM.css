@@ -5,7 +5,7 @@
     color: #2e5185 !important;
     display: inline-block;
     padding: 18px 44px;
-    font-family: "Roboto", cursive;
+    font-family: "Roboto";
     font-size: 14px;
     font-weight: 800;
     border: 0;
@@ -40,7 +40,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "Roboto", cursive;
+    font-family: "Roboto";
     color: #423f8d;
     margin-top: 0;
     font-style: normal;
@@ -194,7 +194,7 @@ li {
 
 .btn {
     background: #2e5185;
-    font-family: "Roboto", cursive;
+    font-family: "Roboto";
     text-transform: capitalize;
     padding: 25px 38px !important;
     color: #fff;
@@ -263,7 +263,7 @@ li {
 .border-btn {
     border: 1px solid #2e5185;
     color: #2e5185;
-    font-family: "Roboto", cursive;
+    font-family: "Roboto";
     background: none;
     text-transform: capitalize;
     padding: 17px 42px;
@@ -621,7 +621,7 @@ li {
 }
 
 .section-tittle span {
-    font-family: "Roboto", cursive;
+    font-family: "Roboto";
     font-size: 40px;
     font-weight: 400;
     color: #2e5185;
@@ -817,7 +817,7 @@ li {
 }
 
 .main-header .main-menu ul>li a {
-    font-family: "Roboto", cursive;
+    font-family: "Roboto";
     color: #423f8d;
     font-weight: 700;
     padding: 27px 4px;
@@ -949,7 +949,7 @@ li {
 }
 
 .header-btn {
-    font-family: "Concert One", cursive;
+    font-family: "Concert One";
     border: none;
     padding: 13px 43px !important;
     text-transform: capitalize !important;
@@ -1110,7 +1110,7 @@ li {
 
 .slider-area .hero__caption span,
 .slider-area2 .hero__caption span {
-    font-family: "Fredoka One", cursive;
+    font-family: "Fredoka One";
     color: #fbce0f;
     font-size: 35px;
     line-height: 1.2;
@@ -1283,7 +1283,7 @@ li {
 }
 
 .single-features .features-caption h3 {
-    font-family: "Concert One", cursive;
+    font-family: "Concert One";
     font-size: 25px;
     line-height: 1.2;
     margin-bottom: 8px;
@@ -1548,7 +1548,7 @@ li {
 }
 
 .class-offer-area .properties__img .img-text .open {
-    font-family: "Concert One", cursive;
+    font-family: "Concert One";
     background: #ff377b;
     border: 0 !important;
     margin: 0
@@ -1614,7 +1614,7 @@ li {
 .class-offer-area .properties__footer .class-day span {
     display: block;
     font-size: 20px;
-    font-family: "Concert One", cursive;
+    font-family: "Concert One";
     line-height: 1;
     margin: 0
 }
@@ -1738,7 +1738,7 @@ li {
 }
 
 .testimonial-area .testimonial-caption .testimonial-founder .founder-text span {
-    font-family: "Concert One", cursive;
+    font-family: "Concert One";
     color: #2e5185;
     font-size: 20px;
     font-weight: 600;
@@ -1868,7 +1868,7 @@ li {
 }
 
 .date-events .cd-timer .cd-item span {
-    font-family: "Concert One", cursive;
+    font-family: "Concert One";
     font-size: 30px;
     color: #423f8d
 }
@@ -2170,7 +2170,7 @@ li {
 }
 
 .blog_area a {
-    color: "Roboto", cursive !important;
+    color: "Roboto" !important;
     text-decoration: none;
     transition: .4s
 }
