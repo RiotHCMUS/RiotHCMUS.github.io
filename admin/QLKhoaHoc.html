@@ -16,6 +16,13 @@
     <link rel="stylesheet" href="../assets/css/A.style.css.pagespeed.cf.Wr09Ey1TjM.css">
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+    <!--Font Awesome 6.2.1 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
 </head>
 
 <body>
@@ -116,12 +123,14 @@
         <div class="container-fluid" id="menu-container">
             <div class="row">
                 <div class="col-3" id="menu" style="margin-left: 40px;">
-                    <div class="list-group list-group-flush" >
-                        <a href="/admin/QLKhoaHoc.html" class="list-group-item list-group-item-action dashboard" aria-current="true" style="color: #1f2b7b;">
+                    <div class="list-group list-group-flush">
+                        <a href="/admin/QLKhoaHoc.html" class="list-group-item list-group-item-action dashboard"
+                            aria-current="true" style="color: #1f2b7b;">
                             <i class="fas fa-tachometer-alt"></i>
                             Quản lý khóa học
                         </a>
-                        <a href="/admin/QLBaiViet.html" class="list-group-item list-group-item-action " style="color: #1f2b7b;">
+                        <a href="/admin/QLBaiViet.html" class="list-group-item list-group-item-action "
+                            style="color: #1f2b7b;">
                             <i class="fas fa-bus
                             "></i>
                             Quản lý bài viết
@@ -136,10 +145,168 @@
                         </a> -->
                     </div>
                 </div>
+                <div class="col-8" id="content">
+                    <div class="container-fluid" id="content-container">
+                        <div class="row">
+                            <div class="col-12" id="content">
+                                <h1>Quản lý khóa học</h1>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- thêm nhà xe -->
+                    <div class="container-fluid" id="content-container">
+                        <div class="container-fluid" id="content-container">
+                            <div class="row">
+                                <div class="col-12" id="content" style="padding-bottom: 30px;">
+                                    <div class="card">
+                                        <div class="card-header">
+                                            <h3>Thêm khóa học</h3>
+                                        </div>
+                                        <div class="card-body">
+                                            <form method="POST" action="/QL_NhaXe/View">
+                                                <div class="mb-3">
+                                                    <label for="tenNhaXe" class="form-label
+                                                    ">Tên khóa học</label>
+                                                    <input type="text" class="form-control" id="tenNhaXe"
+                                                        name="ten_Nha_Xe">
+                                                </div>
+                                                <div class="mb-3">
+                                                    <label for="soXe" class="form-label">Loại khóa học</label>
+                                                    <input type="text" class="form-control" id="soXe"
+                                                        name="So_Luong_Xe">
+                                                </div>
 
+                                                <div class="mb-3">
+                                                    <label for="soDienThoai" class="form-label
+                                                    ">Đơn giá</label>
+                                                    <input type="text" class="form-control" id="soDienThoai" name="SDT">
+                                                </div>
+
+                                                <div class="mb-3">
+                                                    <label for="soDienThoai" class="form-label
+                                                    ">Độ tuổi</label>
+                                                    <input type="text" class="form-control" id="soDienThoai" name="SDT">
+                                                </div>
+                                                <div class="mb-3">
+                                                    <label for="soDienThoai" class="form-label
+                                                    ">Mô tả khóa học</label>
+                                                    <input type="text" class="form-control" id="soDienThoai"
+                                                        name="Dia_Chi">
+                                                </div>
+
+                                                <button type="submit" class="btn btn-primary">Thêm</button>
+                                            </form>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-12" id="content" style="padding-bottom: 30px;">
+                                    <div class="card">
+                                        <div class="card-header">
+                                            <h3>Chỉnh sửa khóa học</h3>
+                                        </div>
+                                        <div class="card-body">
+                                            <form method="POST" action="/QL_NhaXe/Update">
+
+                                                <div class="mb-3">
+                                                    <label for="tenNhaXe" class="form-label
+    
+                                                    ">Chọn khóa học</label>
+                                                    <select class="form-select" aria-label="Default select example"
+                                                        name="nha_xe_id">
+                                                        <option selected>Chọn khóa học cần chỉnh sửa</option>
+                                                        {{#each nha_xes}}
+                                                        <option value="{{id}}">{{ten_Nha_Xe}}</option>
+                                                        {{/each}}
+
+                                                    </select>
+                                                </div>
+
+                                                <h3>Chỉnh sửa thành</h3>
+                                                <div class="mb-3">
+                                                    <label for="tenNhaXe" class="form-label
+                                                    ">Tên khóa học</label>
+                                                    <input type="text" class="form-control" id="tenNhaXe"
+                                                        name="ten_Nha_Xe">
+                                                </div>
+                                                <div class="mb-3">
+                                                    <label for="soXe" class="form-label">Loại khóa học</label>
+                                                    <input type="text" class="form-control" id="soXe"
+                                                        name="So_Luong_Xe">
+                                                </div>
+
+                                                <div class="mb-3">
+                                                    <label for="soDienThoai" class="form-label
+                                                    ">Đơn giá</label>
+                                                    <input type="text" class="form-control" id="soDienThoai" name="SDT">
+                                                </div>
+
+                                                <div class="mb-3">
+                                                    <label for="soDienThoai" class="form-label
+                                                    ">Độ tuổi</label>
+                                                    <input type="text" class="form-control" id="soDienThoai" name="SDT">
+                                                </div>
+
+                                                <div class="mb-3">
+                                                    <label for="soDienThoai" class="form-label
+                                                    ">Mô tả</label>
+                                                    <input type="text" class="form-control" id="soDienThoai"
+                                                        name="Dia_Chi">
+                                                </div>
+                                                <button type="submit" class="btn btn-primary">Sửa</button>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- danh sách nhà xe -->
+                            <div class="row">
+                                <div class="col-12" id="content" style="padding-bottom: 30px;">
+                                    <div class="card">
+                                        <div class="card-header">
+                                            <h3>Danh sách khóa học</h3>
+                                        </div>
+                                        <div class="card-body">
+                                            <table class="table table-striped">
+                                                <thead>
+                                                    <tr>
+                                                        <th scope="col">ID</th>
+                                                        <th scope="col">Tên khóa học</th>
+                                                        <th scope="col">Loại khóa học</th>
+                                                        <th scope="col">Độ tuổi</th>
+                                                        <th scope="col">Đơn giá</th>
+                                                        <th scope="col">Thao tác</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    
+                                                    <tr>
+                                                        <!-- <th>{{id}}</th>
+                                                        <td>{{ten_Nha_Xe}}</td>
+                                                        <td>{{So_Luong_Xe}}</td>
+                                                        <td>{{SDT}}</td>
+
+                                                        <td>
+                                                            <a href="#"
+                                                                class="btn btn-danger">Xóa</a>
+                                                        </td> -->
+                                                    </tr>
+                                                    
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-
     </main>
     <footer>
         <div class="footer-wrappper footer-bg">
