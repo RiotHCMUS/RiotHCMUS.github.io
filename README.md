@@ -6,4 +6,4 @@
 
 [Demo website](https://riothcmus.github.io/)
 
-[](/assets/img_demo/home.png)
+![Demo](/assets/img_demo/home.png)
